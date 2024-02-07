@@ -1,0 +1,27 @@
+.button {
+  background: #6A5BC6;
+  border-radius: 7px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  z-index: 1;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.1);
+}
+
+.button:active {
+  transform: translateY(0px);
+  filter: brightness(0.8);
+}
+
+.button img {
+  height: 15px;
+  margin-right: 5px;
+}

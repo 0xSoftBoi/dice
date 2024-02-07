@@ -1,0 +1,115 @@
+.play_holder {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0px 40px;
+}
+
+.row1_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.row1_1_1 {
+  display: flex;
+}
+.row1_1 {
+    flex-grow: 1;
+}
+.row1_2 {
+    flex-grow: 1;
+}
+.row1_3 {
+    flex-grow: 1;
+}
+
+.row1_2 img {
+  width: 30px;
+}
+
+.div {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.greenArrow {
+  margin-top: 50%;
+  margin-left: 20px;
+}
+
+.reward_container {
+  background-color: #1C192D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  padding: 0px 10px;
+  border-radius: 7px;
+}
+
+.reward_container img {
+  height: 20px;
+}
+
+.reward_amount {
+  margin: 0px 8px;
+}
+
+.row2_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+.stat_container {
+  height: 30px;
+  background: #1C192D;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.row3_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.row4_container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row4_holder {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.row4_holder_2 {
+  margin-top: 40px;
+}
+.balance_container {
+  display: flex;
+  align-items: center;
+}
+
+.row4_1 {
+  display: flex;
+flex-direction: column;
+align-items: center;
+}

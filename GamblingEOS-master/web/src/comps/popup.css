@@ -1,0 +1,37 @@
+.popup_container {
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  max-width: 500px;
+  background-color: #1C192D;
+  position: relative;
+  padding: 40px;
+  border-radius: 20px;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.popup_text {
+  word-break: break-all;
+}
+
+.logo_text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

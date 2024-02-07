@@ -1,0 +1,39 @@
+.user_ranking {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.win {
+  background-color: #3ED26F;
+}
+
+.lose {
+  background-color: #D23E3E;
+}
+
+.one {
+  width: 70px;
+  text-align: left!important;
+}
+.two {
+  width: 130px;
+  text-align: left!important;
+}
+.three {
+  width: 30px;
+}
+.four {
+  width: 140px;
+}
+.five {
+  width: 30px;
+}
+
+.six {
+  width: 140px;
+  text-align: right!important;
+}

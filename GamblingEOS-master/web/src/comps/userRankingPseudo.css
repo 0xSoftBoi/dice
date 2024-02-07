@@ -1,0 +1,45 @@
+.user_ranking_pseudo {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_ranking_pseudo {
+  text-align: center;
+}
+
+.greenArrow2 {
+  width: 30px;
+}
+
+.redArrow2 {
+  width: 20px;
+}
+
+.dice2 {
+  width: 20px;
+}
+
+.one {
+  width: 70px;
+  text-align: left!important;
+}
+.two {
+  width: 130px;
+  text-align: left!important;
+}
+.three {
+  width: 30px;
+}
+.four {
+  width: 140px;
+}
+.five {
+  width: 30px;
+}
+
+.six {
+  width: 140px;
+  text-align: right!important;
+}

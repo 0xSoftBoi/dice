@@ -1,0 +1,23 @@
+.secondaryButton {
+  background: #1C192D;
+  border-radius: 7px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  flex-grow: 1;
+}
+
+.secondaryButton:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.1);
+  background: #6A5BC6;
+}
+
+.secondaryButton:active {
+  transform: translateY(0px);
+  filter: brightness(0.8);
+}
